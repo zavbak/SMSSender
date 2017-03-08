@@ -12,6 +12,8 @@ import com.google.firebase.messaging.RemoteMessage;
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
 
+    static final String  FILD_PHONE = "phone";
+    static final String  FILD_MESSAGE = "message";
 
     /**
      * Called when message is received.
@@ -26,8 +28,8 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         if (remoteMessage.getData().size() > 0) {
 
             try {
-                String phone = remoteMessage.getData().get("phone");
-                String message = remoteMessage.getData().get("message");
+                String phone = remoteMessage.getData().get(FILD_PHONE);
+                String message = remoteMessage.getData().get(FILD_MESSAGE);
 
                 App.getController().sendSms(phone,message);
                 App.getController().saveSms(phone,message);
