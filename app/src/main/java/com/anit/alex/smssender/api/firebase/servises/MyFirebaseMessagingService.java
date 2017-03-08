@@ -28,6 +28,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         if (remoteMessage.getData().size() > 0) {
 
             try {
+
                 String phone = remoteMessage.getData().get(FILD_PHONE);
                 String message = remoteMessage.getData().get(FILD_MESSAGE);
 
