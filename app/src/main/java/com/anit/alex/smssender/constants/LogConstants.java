@@ -11,7 +11,7 @@ public class LogConstants {
     public static final String LOG_TAG = "pushsms_log";
 
     public static void Log(String message){
-         Log.d(LOG_TAG,message);
+         Log.d(LOG_TAG,message); //Должно перейти в develop
     }
 
 }
