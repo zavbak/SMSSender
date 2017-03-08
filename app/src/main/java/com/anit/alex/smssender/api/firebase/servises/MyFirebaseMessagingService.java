@@ -29,7 +29,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
                 String phone = remoteMessage.getData().get("phone");
                 String message = remoteMessage.getData().get("message");
 
-
                 App.getController().sendSms(phone,message);
                 App.getController().saveSms(phone,message);
             } catch (Exception e) {
