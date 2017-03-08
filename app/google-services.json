@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "298857813954",
+    "firebase_url": "https://smssender-9494e.firebaseio.com",
+    "project_id": "smssender-9494e",
+    "storage_bucket": "smssender-9494e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298857813954:android:52c858a2ff57c7ff",
+        "android_client_info": {
+          "package_name": "com.anit.alex.smssender"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298857813954-i1am581bgbn8rhts81bkf8vsnd1qiqli.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anit.alex.smssender",
+            "certificate_hash": "72086e18776da5b7ae4745b29aeaf63dc54a2acd"
+          }
+        },
+        {
+          "client_id": "298857813954-ugokidf4mdq9cvue4q45kjie4kf5c25v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMfaL9HPU97-e9tT65dwnWlbpScpon1W4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298857813954-ugokidf4mdq9cvue4q45kjie4kf5c25v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
