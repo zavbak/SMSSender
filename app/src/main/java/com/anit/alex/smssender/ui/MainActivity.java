@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Refresh", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Refresh!", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
 
                 refresh();
